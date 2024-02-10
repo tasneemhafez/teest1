@@ -1,0 +1,41 @@
+#contact{
+    padding: 20px;
+}
+.line-one{
+    border-bottom: 4px solid rgb(44, 62, 80);;
+     bottom: 10px; 
+    right: -40%;
+}
+h2{
+    font-size: 40px;
+    font-weight: 700;
+}
+
+ .line-two{
+    border-bottom: 4px solid rgb(44, 62, 80);;
+    bottom: 10px;
+    left: 36%;
+
+  }
+  .icon{  
+      left: 38%;
+  }
+  .top-name{
+    top: 30px !important ;
+  }
+
+ #sendBtn{
+    background-color: #1ABC9C;
+    margin: 30px 0;
+    color:#fff;
+   
+ }
+ label{
+    color: #1abc9c;
+    position: relative;
+    transition: all 1s;
+  }
+
+
+
+

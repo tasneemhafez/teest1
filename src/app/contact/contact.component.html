@@ -1,0 +1,29 @@
+<div id="contact">
+    <div class="container mt-5">
+       <h2 class="text-center">CONATCT SECTION</h2>
+       <div class="row text-center pb-5">
+        <div class="col-md-1 line-one position-relative"></div>
+        <div class="col-md-1 icon position-relative">
+            <i class="fa-solid fa-star "></i>
+        </div>
+    <div class="col-md-1 line-two  position-relative"></div>
+    </div>
+    <div class="forms w-75 m-auto px-5">
+        <label for="userName" class="position-relative top-0" [ngClass]="{'top-name': !userName.length}">userName :</label>
+        <input [(ngModel)]="userName" type="text" name="username"placeholder="userName"class="form-control position-relative shadow-none py-3 border-0 border-bottom" >
+  
+        <label for="user-age" class="position-relative top-0" [ngClass]="{'top-name': !userAge.length}">userAge:</label>
+        <input [(ngModel)]="userAge"type="text" name="userage"placeholder="userAge"class="form-control position-relative shadow-none py-3 border-0 border-bottom" >
+    
+        <label for="user-email" class="position-relative top-0" [ngClass]="{'top-name': !userEmail.length}">userEmail:</label> 
+        <input [(ngModel)]="userEmail"type="text" name="useremail"placeholder="userEmail"class="form-control position-relative shadow-none py-3 border-0 border-bottom" >
+        <label for="user-passsword" class="position-relative top-0" [ngClass]="{'top-name': !userPassword.length}">userPassword:</label> 
+        <input [(ngModel)]="userPassword"type="password" name="userPassword"placeholder="userPassword"class="form-control position-relative shadow-none py-3 border-0 border-bottom" >
+        <button id="sendBtn" class="btn">Send Message</button>
+    
+    </div>
+        </div>
+        </div>
+    
+   
+

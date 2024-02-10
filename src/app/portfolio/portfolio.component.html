@@ -1,0 +1,84 @@
+<div id="portfolio">
+    <div class="container mt-5">
+       <h2 class="text-center">PORTFOLIO SECTION</h2>
+       <div class="row text-center pb-5">
+        <div class="col-md-1 line-one position-relative"></div>
+        <div class="col-md-1 icon position-relative">
+            <i class="fa-solid fa-star "></i>
+        </div>
+        <div class="col-md-1 line-two  position-relative"></div>
+    </div>
+
+
+
+    <div class="row g-5 text-white">
+        <div class="col-md-6 col-lg-4">
+            <div (click)=" clicke('one')" class="item rounded-3 overflow-hidden position-relative">
+                <img src="../assets/img/poert1.png"class="w-100">
+                <div class="layer d-flex justify-content-center align-items-center position-absolute">
+                    <i class="fa-solid fa-plus"></i>
+                  </div>
+            </div>
+            </div>
+
+
+            <div class="col-md-6 col-lg-4">
+                <div (click)="clicke('two')" class="item rounded-3 overflow-hidden position-relative">
+                    <img src="../assets/img/port2.png"class="w-100">
+                    <div class="layer d-flex justify-content-center align-items-center position-absolute ">
+                        <i class="fa-solid fa-plus"></i>
+                      </div>
+                </div>
+                </div>
+
+
+
+
+                <div class="col-md-6 col-lg-4">
+                    <div (click)="clicke('three')"class="item rounded-3 overflow-hidden position-relative">
+                        <img src="../assets/img/port3.png"class="w-100">
+                        <div class="layer d-flex justify-content-center align-items-center position-absolute">
+                            <i class="fa-solid fa-plus"></i>
+                          </div>
+                    </div>
+                    </div>
+       
+
+                    <div class="col-md-6 col-lg-4">
+                        <div (click)=" clicke('one')" class="item rounded-3 overflow-hidden position-relative">
+                            <img src="../assets/img/poert1.png"class="w-100">
+                            <div class="layer d-flex justify-content-center align-items-center  position-absolute">
+                                <i class="fa-solid fa-plus"></i>
+                              </div>
+                        </div>
+                        </div>
+            
+            
+                        <div class="col-md-6 col-lg-4">
+                            <div (click)="clicke('two')" class="item rounded-3 overflow-hidden position-relative">
+                                <img src="../assets/img/port2.png"class="w-100">
+                                <div class="layer d-flex justify-content-center align-items-center position-absolute ">
+                                    <i class="fa-solid fa-plus"></i>
+                                  </div>
+                            </div>
+                            </div>
+            
+            
+            
+            
+                            <div class="col-md-6 col-lg-4">
+                                <div (click)="clicke('three')" class="item rounded-3 overflow-hidden position-relative">
+                                    <img src="../assets/img/port3.png"class="w-100">
+                                    <div class="layer d-flex justify-content-center align-items-center  position-absolute">
+                                        <i class="fa-solid fa-plus"></i>
+                                      </div>
+                                </div>
+                                </div>
+                               
+                                <div (click)="exit()" [ngClass]=" hamada? 'big': 'd-none'">
+                                    <img class="innerImg" [src]="imges">
+                                  </div>
+                  
+            </div>
+
+            </div>

@@ -1,0 +1,25 @@
+#about{
+    background-color:  #1ABC9C;
+    padding:5rem;
+}
+h2{
+    padding-top: 60px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.line-one{
+    border-bottom: 4px solid white;
+     bottom: 10px; 
+    right: -40%;
+}
+
+ .line-two{
+    border-bottom: 4px solid white;
+    bottom: 10px;
+    left: 36%;
+
+  }
+  .icon{  
+      left: 38%;
+  }
